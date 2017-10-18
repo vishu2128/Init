@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/viewProfile"
+            android:icon="@drawable/view_profile"
+            android:title="View Profile" />
+        <item
+            android:id="@+id/viewRequest"
+            android:icon="@drawable/request_init"
+            android:title="View Requests" />
+        <item
+            android:id="@+id/viewStats"
+            android:icon="@drawable/statsinit"
+            android:title="View Statistics" />
+
+    </group>
+
+    <item android:title="Company Information">
+        <menu>
+            <item
+                android:id="@+id/regComp"
+                android:icon="@drawable/register_company"
+                android:title="Registered Companies" />
+            <item
+                android:id="@+id/upComp"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Upcoming Companies" />
+            <item
+                android:id="@+id/viewPlaced"
+                android:icon="@drawable/view"
+                android:title="View Placed Students" />
+        </menu>
+    </item>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+</menu>

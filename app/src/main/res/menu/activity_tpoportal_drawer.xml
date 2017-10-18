@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Manage Companies">
+            <menu>
+                <item
+                    android:id="@+id/addcomp"
+                    android:icon="@drawable/add_icon"
+                    android:title="Add Company" />
+                <item
+                    android:id="@+id/viewcomp"
+                    android:icon="@drawable/view"
+                    android:title="View Company Data" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Manage Students">
+        <menu>
+            <item
+                android:id="@+id/viewstu"
+                android:icon="@drawable/view"
+                android:title="View Student Data" />
+            <item
+                android:id="@+id/updatestu"
+                android:icon="@drawable/right_arrow"
+                android:title="Update Student Data" />
+        </menu>
+    </item>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/viewreq"
+                android:icon="@drawable/request_init"
+                android:title="View Student Requests" />
+        </menu>
+    </item>
+
+</menu>

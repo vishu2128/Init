@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.practice.mnnit.init.contactUs"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <include
+        layout="@layout/recycle_toolbar">
+    </include>
+    <android.support.v7.widget.RecyclerView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="8dp"
+
+        android:id="@+id/recycleStudentContact"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

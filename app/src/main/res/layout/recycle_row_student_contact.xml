@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="4dp"
+    >
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardStudentContact"
+        android:layout_width="match_parent"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp"
+        android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                >
+                <ImageView
+                    android:id="@+id/img_android"
+                    android:adjustViewBounds="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tpo_name"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/img_android"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tpo_registration"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tpo_name"
+                    android:layout_toRightOf="@+id/img_android"
+
+                    />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:text="Course :"
+                    android:id="@+id/course"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/img_android"
+                    android:layout_below="@+id/tpo_registration"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tpo_course"
+
+                    android:layout_toRightOf="@+id/course"
+                    android:layout_below="@+id/tpo_registration"
+                    android:paddingRight="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Branch :"
+                    android:id="@+id/branch"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/tpo_course"
+                    android:layout_below="@+id/tpo_registration"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tpo_branch"
+                    android:layout_toRightOf="@+id/branch"
+                    android:layout_below="@+id/tpo_registration"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact :"
+                    android:id="@+id/contact"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/img_android"
+                    android:layout_below="@+id/course"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tpo_contact"
+                    android:autoLink="phone"
+                    android:layout_toRightOf="@+id/contact"
+                    android:layout_below="@+id/tpo_course"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email :"
+                    android:id="@+id/email"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/img_android"
+                    android:layout_below="@+id/contact"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tpo_email"
+                    android:autoLink="email"
+                    android:layout_below="@+id/tpo_contact"
+                    android:layout_toRightOf="@id/email"/>
+
+            </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

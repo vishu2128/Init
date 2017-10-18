@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.practice.mnnit.init">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Login" />
+        <activity android:name=".Update" />
+        <activity android:name=".checkAddComp" />
+        <activity android:name=".checkUpdateComp" />
+        <activity android:name=".checkReduceCredits" />
+        <activity android:name=".checkStudentPlaced1" />
+        <activity android:name=".checkStudentPlaced2" />
+        <activity android:name=".checkFileSend" />
+        <activity
+            android:name=".TPOportal"
+            android:label="@string/title_activity_tpoportal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".checkUpdateStudentData" />
+        <activity
+            android:name=".StudentPortal"
+            android:label="@string/title_activity_student_portal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".viewProfile"
+            android:label="Student Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".CompanyNotification"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".viewRequest"
+            android:label="View Your Requests"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".upcoming"
+            android:label="Upcoming Companies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".showCompany" />
+        <activity android:name=".SelectPortal" />
+        <activity android:name=".viewRegisteredCompanies" />
+        <activity android:name=".viewAllRequest" />
+        <activity android:name=".viewAllCompany" />
+        <activity android:name=".viewAllStudent" />
+        <activity android:name=".viewStats" />
+        <activity android:name=".viewAllPlaced" />
+        <activity android:name=".changePassword" />
+        <activity android:name=".contactUs"></activity>
+    </application>
+
+</manifest>

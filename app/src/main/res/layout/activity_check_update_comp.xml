@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.practice.mnnit.init.checkUpdateComp"
+    android:background="@drawable/background">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#3F51B5"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:id="@+id/checkUpdateCompToolbar">
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/checkUpdateCompToolbar">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTxt29"
+                android:layout_alignParentTop="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTxt21"
+                android:hint="Courses"
+                android:layout_below="@+id/editTxt27"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTxt22"
+                android:hint="Eligibility"
+                android:layout_below="@+id/editTxt21"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTxt23"
+                android:hint="Designation"
+                android:layout_below="@+id/editTxt22"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTxt24"
+                android:hint="Location"
+                android:layout_below="@+id/editTxt23"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTxt25"
+                android:hint="Link"
+                android:layout_below="@+id/editTxt24"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTxt26"
+                android:inputType="date"
+                android:ems="10"
+                android:hint="Date of Online Test"
+                android:layout_below="@+id/editTxt25"
+                android:layout_centerHorizontal="true"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:hint="Date of Arrival"
+                android:ems="10"
+                android:id="@+id/editTxt28"
+                android:layout_below="@+id/editTxt26"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:id="@+id/buton3"
+                android:layout_marginTop="450dp"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Placed Student"
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:id="@+id/buton14"
+                android:layout_marginTop="510dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:textColor="#000000"
+                android:layout_marginTop="510dp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTxt27"
+                android:hint="CTC"
+                android:layout_below="@+id/editTxt29"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:hint="Last Date of Registration"
+                android:id="@+id/editTxt36"
+                android:layout_below="@+id/editTxt28"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Last Date of Registration"
+                android:textColor="#000000"
+                android:id="@+id/textView6"
+                android:layout_below="@+id/editTxt28"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:text="..."
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:id="@+id/button14"
+                android:layout_below="@+id/editTxt28"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Date of Arrival"
+                android:textColor="#000000"
+                android:id="@+id/textView11"
+                android:layout_below="@+id/editTxt26"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:text="..."
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:id="@+id/button27"
+                android:layout_below="@+id/editTxt26"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Date of Online Test"
+                android:textColor="#000000"
+                android:layout_below="@+id/editTxt25"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:text="..."
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:id="@+id/button28"
+                android:layout_below="@+id/editTxt25"
+                android:layout_alignParentRight="true" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

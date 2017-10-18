@@ -1,0 +1,55 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView4"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    tools:context="com.practice.mnnit.init.Personal"
+    android:background="@drawable/background">
+
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.practice.mnnit.init.Personal">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/acadcourse" />
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/acadbranch"
+            android:hint="Enter branch"
+            android:layout_below="@+id/acadcourse"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/acadcpi"
+            android:layout_below="@+id/acadbranch"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/acadten"
+            android:layout_below="@+id/acadcpi"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/acad12"
+            android:layout_below="@+id/acadten"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/acadEdit"
+            android:layout_below="@+id/acad12"/>
+
+    </RelativeLayout>
+</ScrollView>

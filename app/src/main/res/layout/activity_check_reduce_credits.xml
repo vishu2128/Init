@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.practice.mnnit.init.checkReduceCredits">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#3F51B5"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:id="@+id/reducedCreditsToolbar">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText32"
+        android:hint = "Registration Number"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp" />
+
+    <Spinner
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:id="@+id/editText33"
+        android:textAlignment="center"
+        android:hint="Number of Credits to be Reduced"
+        android:layout_below="@+id/editText32"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reduce Credits"
+        android:id="@+id/button7"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Number of Credits To be Reduced"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/editText32"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

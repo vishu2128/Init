@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.practice.mnnit.init.Login"
+    android:background="@drawable/building">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#3F51B5"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:id="@+id/loginToolbar">
+
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="Registration Number"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:hint="Password"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/button"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:nestedScrollingEnabled="false"
+        android:background="#dff8f6"
+        android:textColor="#000000"
+        style="?android:attr/borderlessButtonStyle" />
+
+  <!--  <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView3"
+        android:src="@drawable/building"
+        android:layout_below="@+id/loginToolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+</RelativeLayout>
