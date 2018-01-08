@@ -6,7 +6,7 @@ Features Implemented-
 3. TPRs will also access the data through special login and will update the data(company related & other data) regularly.
 4. TPRs will have complete access over students' portal and they can reduce TPO credits.
 5. Student can only update their fields upto a certain time allowed by the TPO.
-6. We can search data using  filters.
+6. We can search data using filters.
 
 Special Features
 1. Students can message their requests to the TPO and TPRs can respond accordingly.
